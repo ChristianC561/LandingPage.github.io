@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="http://landing.ant.design">
+  <a href="">
     <img width="150px" height="150px" src="https://gw.alipayobjects.com/zos/rmsportal/hSYPdZJwZeXAgfkktcEu.svg"/>
   </a>
 </p>
-<h1 align="center">Ant Design Landing</h1>
+<h1 align="center"></h1>
 
 <div align="center">
   
-Landing Pages of Ant Design System
+
 
 [![Dependencies](https://img.shields.io/david/ant-design/ant-design-landing.svg)](https://david-dm.org/ant-design/ant-design-landing)
 [![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design-landing.svg)](https://david-dm.org/ant-design/ant-design-landing?type=dev)
@@ -16,13 +16,7 @@ Landing Pages of Ant Design System
 
 <div align="center">English | <a href="./README-zh_CN.md">简体中文</a></div>
 
-## What is Landing?
 
-Landing is a template built by Ant Motion's motion components. It has a rich homepage template, downloads the template code package, and can be used quickly. You can also use the editor to quickly build your own dedicated page.
-
-<div align="center">
-  <a href="https://landing.ant.design/edit">Go Editing 📝</a>
-</div>
 
 ## Features
 
