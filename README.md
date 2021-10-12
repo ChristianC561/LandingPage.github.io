@@ -1,12 +1,50 @@
-# April
+<p align="center">
+  <a href="http://landing.ant.design">
+    <img width="150px" height="150px" src="https://gw.alipayobjects.com/zos/rmsportal/hSYPdZJwZeXAgfkktcEu.svg"/>
+  </a>
+</p>
+<h1 align="center">Ant Design Landing</h1>
 
-A landing page template.
+<div align="center">
+  
+Landing Pages of Ant Design System
 
-* [Getting started](#getting-started)
+[![Dependencies](https://img.shields.io/david/ant-design/ant-design-landing.svg)](https://david-dm.org/ant-design/ant-design-landing)
+[![DevDependencies](https://img.shields.io/david/dev/ant-design/ant-design-landing.svg)](https://david-dm.org/ant-design/ant-design-landing?type=dev)
 
-## Getting started
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* Next, use your command line to enter your project directory.
-* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
+</div>
 
-You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
+<div align="center">English | <a href="./README-zh_CN.md">简体中文</a></div>
+
+## What is Landing?
+
+Landing is a template built by Ant Motion's motion components. It has a rich homepage template, downloads the template code package, and can be used quickly. You can also use the editor to quickly build your own dedicated page.
+
+<div align="center">
+  <a href="https://landing.ant.design/edit">Go Editing 📝</a>
+</div>
+
+## Features
+
+- [Specifications](https://landing.ant.design/docs/introduce)
+- [Download](https://landing.ant.design/docs/download)
+- [Responsive](https://landing.ant.design/docs/guide/layout)
+
+## Templates
+
+Has a wealth of various page templates to provide downloads.
+
+[![](https://user-images.githubusercontent.com/6802825/47977555-ac77b080-e0f3-11e8-90f3-6aa04cce5351.jpg)](http://landing.ant.design)
+
+## Modules
+
+Diverse modules, you can quickly and flexibly configure the page template you want.
+
+<div style="max-width: 600px">
+  <img src="https://user-images.githubusercontent.com/6802825/47980280-ec459480-e101-11e8-8a94-1ada4ff61faa.jpg" width="100%">
+</div>
+
+## Example in scaffolding
+
+- [dva-cli-example](https://github.com/ant-motion/ant-motion-dva-cli-example)
+- [umi-example](https://github.com/ant-motion/landing-umi-example)
