@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
-
-<html>
 <head>
   <title>GreenView Technical Resources - Recruiting Agency</title>
   <meta name="description" content="GreenView Technical Resources is a leading recruiting agency specializing in technical talent acquisition and staffing solutions.">
   <style>
+    :root {
+      --primary-color: #006400;
+      --secondary-color: #00ff00;
+      --tertiary-color: #ffffff;
+      --text-color: #000000;
+    }
     body {
       font-family: sans-serif;
       text-align: center;
-      background-color: #006400;
+      background-color: var(--primary-color);
+      color: var(--text-color);
     }
     h1 {
-      color: #006400;
+      color: var(--primary-color);
       margin: 0;
       padding: 20px 0;
     }
@@ -25,11 +30,17 @@
     }
     a:link,
     a:visited {
-      color: #006400;
+      color: var(--primary-color);
       text-decoration: none;
     }
     a:hover {
-      color: #00ff00;
+      color: var(--secondary-color);
+    }
+    .highlight {
+      background-color: var(--secondary-color);
+      color: var(--tertiary-color);
+      padding: 5px 10px;
+      border-radius: 5px;
     }
   </style>
 </head>
@@ -41,24 +52,44 @@
     Whether you're looking for a full-time employee or a contract worker, we can help. Contact us today to learn more.
   </p>
   <p>
-    Want to get in touch with us? Visit our <a href="contact.html">contact page</a> for more information.
+    Want to get in touch with us? Visit our <a href="contact.html" class="highlight">contact page</a> for more information.
   </p>
 </body>
 </html>
-
-
-
-
-<p>
-  Want to get in touch with us? Visit our <a href="contact.html">contact page</a> for more information.
-</p>
-
 
 <!DOCTYPE html>
 <html>
 <head>
   <title>Contact GreenView Technical Resources</title>
   <meta name="description" content="Contact GreenView Technical Resources for all your technical talent acquisition and staffing needs.">
+  <style>
+    :root {
+      --primary-color: #006400;
+      --secondary-color: #00ff00;
+      --tertiary-color: #ffff
+	  ff;
+      --text-color: #000000;
+    }
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+    }
+    h1 {
+      color: var(--primary-color);
+      margin: 0;
+      padding: 20px 0;
+    }
+    a:link,
+    a:visited {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    a:hover {
+      color: var(--secondary-color);
+    }
+  </style>
 </head>
 <body>
   <h1>Contact Us</h1>
@@ -72,50 +103,146 @@
   </p>
 </body>
 </html>
-You can then add a link to the contact page from your main website by adding the following code to your existing HTML file:
-
-Copy code
-<p>
-  Want to get in touch with us? Visit our <a href="contact.html">contact page</a> for more information.
-</p>
-This will add a link to your contact page at the bottom of your website. When a user clicks on the link, they will be taken to the contact page.
-
 
 <!DOCTYPE html>
 <html>
 <head>
   <title>Job Board - GreenView Technical Resources</title>
   <meta name="description" content="View and apply for technical job opportunities at GreenView Technical Resources.">
+  <style>
+    :root {
+      --primary-color: #006400;
+      --secondary-color: #00ff00;
+      --tertiary-color: #ffffff;
+      --text-color: #000000;
+    }
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+    }
+    h1 {
+      color: var(--primary-color);
+      margin: 0;
+      padding: 20px 0;
+    }
+    a:link,
+    a:visited {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    a:hover {
+      color: var(--secondary-color);
+    }
+    .job {
+      border: 1px solid var(--primary-color);
+      margin: 20px 0;
+      padding: 20px;
+    }
+    .job h2 {
+      margin: 0;
+    }
+    .job a.apply {
+      display: block;
+      background-color: var(--secondary-color);
+      color: var(--tertiary-color);
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    .job a.apply:hover {
+      background-color: var(--tertiary-color);
+      color: var(--secondary-color);
+    }
+  </style>
 </head>
 <body>
   <h1>Job Board</h1>
   <h2>Current Openings:</h2>
-  <ul>
-    <li>
-      <h3>Software Engineer</h3>
-      <p>We are seeking a highly skilled software engineer with experience in Java and web development.</p>
-      <a href="apply.html">Apply now</a>
-    </li>
-    <li>
-      <h3>Systems Administrator</h3>
-      <p>We are seeking a systems administrator with experience in Linux and network administration.</p>
-      <a href="apply.html">Apply now</a>
-    </li>
-  </ul>
+  <div class="job">
+    <h2>Software Engineer</h2>
+    <
+	<p>We are seeking a highly skilled software engineer with experience in Java and web development.</p>
+    <a href="apply.html" class="apply">Apply now</a>
+  </div>
+  <div class="job">
+    <h2>Systems Administrator</h2>
+    <p>We are seeking a systems administrator with experience in Linux and network administration.</p>
+    <a href="apply.html" class="apply">Apply now</a>
+  </div>
 </body>
 </html>
-You can then add a link to the job board page from your main website by adding the following code to your existing HTML file:
 
-Copy code
-<p>
-  Looking for a job in the tech industry? Check out our <a href="jobs.html">job board</a> for current openings.
-</p>
-This will add a link to your job board page at the bottom of your website. When a user clicks on the link, they will be taken to the job board page where they can view and apply for open positions.
-
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apply - GreenView Technical Resources</title>
+  <meta name="description" content="Apply for a job at GreenView Technical Resources.">
+  <style>
+    :root {
+      --primary-color: #006400;
+      --secondary-color: #00ff00;
+      --tertiary-color: #ffffff;
+      --text-color: #000000;
+    }
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+    }
+    h1 {
+      color: var(--primary-color);
+      margin: 0;
+      padding: 20px 0;
+    }
+    form {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid var(--primary-color);
+    }
+    form label {
+      display: block;
+      margin: 10px 0;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      border: 1px solid var(--primary-color);
+      border-radius: 5px;
+    }
+    form input[type="submit"] {
+      display: block;
+      margin: 20px auto;
+      background-color: var(--secondary-color);
+      color: var(--tertiary-color);
+      font-size: 18px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+    }
+    form input[type="submit"]:hover {
+      background-color: var(--tertiary-color);
+      color: var(--secondary-color);
+    }
+  </style>
+</head>
+<body>
+  <h1>Apply</h1>
+  <form action="#">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <label for="resume">Resume:</label>
+    <textarea id="resume" required></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
